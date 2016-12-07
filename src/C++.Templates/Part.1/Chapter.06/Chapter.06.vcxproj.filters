@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="InclusionModel">
+      <UniqueIdentifier>{bcd2fd17-2de6-4e0f-872c-ab3cf5644ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SeparationModel">
+      <UniqueIdentifier>{b9696cca-1662-411f-bdad-df1a22993d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugTemplate">
+      <UniqueIdentifier>{dc28f42a-8439-40f4-a0ea-8b622d593c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracer">
+      <UniqueIdentifier>{f7459ce1-4f7d-4b78-89a4-40167a30dceb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InclusionModel\declaration.h">
+      <Filter>InclusionModel</Filter>
+    </ClInclude>
+    <ClInclude Include="InclusionModel\definition.h">
+      <Filter>InclusionModel</Filter>
+    </ClInclude>
+    <ClInclude Include="SeparationModel\myFirst3.h">
+      <Filter>SeparationModel</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugTemplate\ShallowChecks.h">
+      <Filter>DebugTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer\Tracer.h">
+      <Filter>Tracer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.06.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InclusionModel\explicitInstantiation.cpp">
+      <Filter>InclusionModel</Filter>
+    </ClCompile>
+    <ClCompile Include="SeparationModel\myFirst3.cpp">
+      <Filter>SeparationModel</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugTemplate\shallowChecks.cpp">
+      <Filter>DebugTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer\Tracer.cpp">
+      <Filter>Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer\TracerTest.cpp">
+      <Filter>Tracer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

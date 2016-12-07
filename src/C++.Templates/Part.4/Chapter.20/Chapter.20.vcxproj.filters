@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Holder">
+      <UniqueIdentifier>{7752f916-0b26-4665-8f9a-f5788dc524e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trule">
+      <UniqueIdentifier>{52e6cb73-9e78-42eb-803a-038a1bc5e9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TransferCapsule">
+      <UniqueIdentifier>{a0869925-b789-46f7-8f9e-7ff3ce10955d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CountingPointer">
+      <UniqueIdentifier>{34056c5a-f635-4738-bf08-141e4869579b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder\Holder.h">
+      <Filter>Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder\TestDoSomething.h">
+      <Filter>Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder\Holder.Test.h">
+      <Filter>Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder\ReferenceMember1.h">
+      <Filter>Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder\ReferenceMember2.h">
+      <Filter>Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder\AcquireResource.h">
+      <Filter>Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="Holder\Holder.Fault.h">
+      <Filter>Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferCapsule\TransferCapsule.h">
+      <Filter>TransferCapsule</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferCapsule\TransferCapsule.Test.h">
+      <Filter>TransferCapsule</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingPointer\CountingPointer.h">
+      <Filter>CountingPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingPointer\CounterPolicy.h">
+      <Filter>CountingPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingPointer\ObjectPolicy.h">
+      <Filter>CountingPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingPointer\SimpleReferenceCount.h">
+      <Filter>CountingPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingPointer\MemberReferenceCount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingPointer\CountingPointer.test.h">
+      <Filter>CountingPointer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

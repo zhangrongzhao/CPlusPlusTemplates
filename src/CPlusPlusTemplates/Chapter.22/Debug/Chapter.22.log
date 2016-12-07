@@ -1,0 +1,239 @@
+﻿Build started 2015/6/2 10:56:49.
+     1>Project "F:\zrz.Learning\C++.Templates.Learning\CPlusPlusTemplates\Chapter.22\Chapter.22.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Chapter.22.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Binder\BinderTest.cpp
+         BinderTest.cpp
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2976: 'IfThenElse' : too few template arguments
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\ifthenelse.h(8) : see declaration of 'IfThenElse'
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(58) : see reference to class template instantiation 'FunctorParam<F,N>' being compiled
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C3083: 'ResultT': the symbol to the left of a '::' must be a type
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): warning C4346: 'F::NumParams' : dependent name is not a type
+                 prefix with 'typename' to indicate a type
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2146: syntax error : missing ';' before identifier 'Type'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2868: 'FunctorParam<F,N>::Type' : illegal syntax for using-declaration; expected qualified-name
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\binder.h(124): error C2143: syntax error : missing ';' before '<'
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\binder.h(130) : see reference to class template instantiation 'Binder<FO,P,V>::ArgSelect<A>' being compiled
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\binder.h(131) : see reference to class template instantiation 'Binder<FO,P,V>' being compiled
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\binder.h(124): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\binder.h(124): error C2238: unexpected token(s) preceding ';'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\binder.h(125): error C2059: syntax error : '<'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\binder.h(125): error C2238: unexpected token(s) preceding ';'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2784: 'IsFunctionT<T>::Two IsFunctionT<T>::test(U (*)[1])' : could not deduce template argument for 'U (*)[1]' from 'int'
+                 with
+                 [
+                     T=const std::string
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(11) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=const std::string
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\compoundtype.h(12) : see reference to class template instantiation 'IsFunctionT<T>' being compiled
+                 with
+                 [
+                     T=const std::string
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\compoundtype.h(38) : see reference to class template instantiation 'CompoundT<T>' being compiled
+                 with
+                 [
+                     T=const std::string
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(17) : see reference to class template instantiation 'CompoundT<T>' being compiled
+                 with
+                 [
+                     T=const std::string &
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\forwardparam.h(17) : see reference to class template instantiation 'TypeT<T>' being compiled
+                 with
+                 [
+                     T=const std::string &
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\functionptr\functionptr.h(33) : see reference to class template instantiation 'ForwardParamT<P1>' being compiled
+                 with
+                 [
+                     P1=const std::string &
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\bindertest.cpp(14) : see reference to class template instantiation 'FunctionPtr<bool,const std::string &,double,float>' being compiled
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2783: 'IsFunctionT<T>::One IsFunctionT<T>::test(...)' : could not deduce template argument for 'U'
+                 with
+                 [
+                     T=const std::string
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(10) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=const std::string
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2056: illegal expression
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(21): error C2039: 'IsPtrMemT' : is not a member of 'CompoundT<T>'
+                 with
+                 [
+                     T=const std::string &
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(21): error C2065: 'IsPtrMemT' : undeclared identifier
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isenumtype.h(59): error C2039: 'IsPtrMemT' : is not a member of 'CompoundT<T>'
+                 with
+                 [
+                     T=const std::string &
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(22) : see reference to class template instantiation 'IsEnumT<T>' being compiled
+                 with
+                 [
+                     T=const std::string &
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isenumtype.h(59): error C2065: 'IsPtrMemT' : undeclared identifier
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isenumtype.h(60): error C2057: expected constant expression
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isclasstype.h(18): error C2039: 'IsPtrMemT' : is not a member of 'CompoundT<T>'
+                 with
+                 [
+                     T=const std::string &
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(23) : see reference to class template instantiation 'IsClassT<T>' being compiled
+                 with
+                 [
+                     T=const std::string &
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isclasstype.h(18): error C2065: 'IsPtrMemT' : undeclared identifier
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isclasstype.h(19): error C2057: expected constant expression
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2784: 'IsFunctionT<T>::Two IsFunctionT<T>::test(U (*)[1])' : could not deduce template argument for 'U (*)[1]' from 'int'
+                 with
+                 [
+                     T=double
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(11) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=double
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\compoundtype.h(12) : see reference to class template instantiation 'IsFunctionT<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(17) : see reference to class template instantiation 'CompoundT<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\forwardparam.h(17) : see reference to class template instantiation 'TypeT<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\functionptr\functionptr.h(38) : see reference to class template instantiation 'ForwardParamT<P2>' being compiled
+                 with
+                 [
+                     P2=double
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2783: 'IsFunctionT<T>::One IsFunctionT<T>::test(...)' : could not deduce template argument for 'U'
+                 with
+                 [
+                     T=double
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(10) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=double
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2784: 'IsFunctionT<T>::Two IsFunctionT<T>::test(U (*)[1])' : could not deduce template argument for 'U (*)[1]' from 'int'
+                 with
+                 [
+                     T=float
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(11) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=float
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\compoundtype.h(12) : see reference to class template instantiation 'IsFunctionT<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(17) : see reference to class template instantiation 'CompoundT<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\forwardparam.h(17) : see reference to class template instantiation 'TypeT<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\functionptr\functionptr.h(44) : see reference to class template instantiation 'ForwardParamT<P3>' being compiled
+                 with
+                 [
+                     P3=float
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2783: 'IsFunctionT<T>::One IsFunctionT<T>::test(...)' : could not deduce template argument for 'U'
+                 with
+                 [
+                     T=float
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(10) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=float
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2275: 'UsedFunctorParam<F,1>' : illegal use of this type as an expression
+                 with
+                 [
+                     F=FunctionPtr<bool,const std::string &,double,float>
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\bindertest.cpp(14) : see reference to class template instantiation 'FunctorParam<FunctionPtr<bool,const std::string &,double,float>,1>' being compiled
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\ifthenelse.h(8) : see declaration of 'IfThenElse'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2955: 'IfThenElse' : use of class template requires template argument list
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\ifthenelse.h(8) : see declaration of 'IfThenElse'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2027: use of undefined type 'IfThenElse'
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\ifthenelse.h(8) : see declaration of 'IfThenElse'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2602: 'FunctorParam<FunctionPtr<bool,const std::string &,double,float>,1>::Type' is not a member of a base class of 'FunctorParam<FunctionPtr<bool,const std::string &,double,float>,1>'
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57) : see declaration of 'FunctorParam<FunctionPtr<bool,const std::string &,double,float>,1>::Type'
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\functorparam.h(57): error C2868: 'FunctorParam<FunctionPtr<bool,const std::string &,double,float>,1>::Type' : illegal syntax for using-declaration; expected qualified-name
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2784: 'IsFunctionT<T>::Two IsFunctionT<T>::test(U (*)[1])' : could not deduce template argument for 'U (*)[1]' from 'int'
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(11) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\compoundtype.h(12) : see reference to class template instantiation 'IsFunctionT<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\typet.h(17) : see reference to class template instantiation 'CompoundT<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\traits\forwardparam.h(17) : see reference to class template instantiation 'TypeT<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\bindertest.cpp(14) : see reference to class template instantiation 'ForwardParamT<int>' being compiled
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(13): error C2783: 'IsFunctionT<T>::One IsFunctionT<T>::test(...)' : could not deduce template argument for 'U'
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\types\isfunctiontype.h(10) : see declaration of 'IsFunctionT<T>::test'
+                 with
+                 [
+                     T=int
+                 ]
+     1>f:\zrz.learning\c++.templates.learning\cplusplustemplates\chapter.22\binder\bindertest.cpp(14): error C2664: 'Binder<FunctionPtr<bool,const std::string &,double,float>,1,BoundVal<int>> bind<1,FunctionPtr<bool,const std::string &,double,float>>(const FO &,int)' : cannot convert argument 2 from 'const char [10]' to 'int'
+                 with
+                 [
+                     FO=FunctionPtr<bool,const std::string &,double,float>
+                 ]
+                 There is no context in which this conversion is possible
+     1>Done Building Project "F:\zrz.Learning\C++.Templates.Learning\CPlusPlusTemplates\Chapter.22\Chapter.22.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.24

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6488F0D4-F20A-4C4D-BB00-AE4512EEEA7C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Chapter22</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Binder\BindConv.h" />
+    <ClInclude Include="Binder\Binder.h" />
+    <ClInclude Include="Binder\BinderParams.h" />
+    <ClInclude Include="Binder\BoundVal.h" />
+    <ClInclude Include="Binder\FunctorParam.h" />
+    <ClInclude Include="Binder\Min.h" />
+    <ClInclude Include="Binder\SignSelect.h" />
+    <ClInclude Include="ComposeFunctor\Compose1.h" />
+    <ClInclude Include="ComposeFunctor\Compose4.h" />
+    <ClInclude Include="ComposeFunctor\Compose5.h" />
+    <ClInclude Include="ComposeFunctor\Compose6.h" />
+    <ClInclude Include="ComposeFunctor\ForwardParam.h" />
+    <ClInclude Include="ComposeFunctor\FunctorParam1.h" />
+    <ClInclude Include="ComposeFunctor\IfThenElse.h" />
+    <ClInclude Include="ComposeFunctor\Math1.h" />
+    <ClInclude Include="ComposeFunctor\Math2.h" />
+    <ClInclude Include="ComposeFunctor\Math3.h" />
+    <ClInclude Include="FunctionPtr\ForwardParam.h" />
+    <ClInclude Include="FunctionPtr\FuncPtr.h" />
+    <ClInclude Include="FunctionPtr\FunctionPtr.h" />
+    <ClInclude Include="FunctionPtr\FunctionPtrType.h" />
+    <ClInclude Include="FunctionPtr\IfThenElse.h" />
+    <ClInclude Include="Functors\FunctionPointer.h" />
+    <ClInclude Include="Functors\Functor1.h" />
+    <ClInclude Include="Functors\FunctorParam1.h" />
+    <ClInclude Include="Functors\FunctorParam2.h" />
+    <ClInclude Include="Functors\funcwrap.h" />
+    <ClInclude Include="Functors\MemberFunctionPointer.h" />
+    <ClInclude Include="Functors\SortCriterion.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Traits\ForwardParam.h" />
+    <ClInclude Include="Traits\IfThenElse.h" />
+    <ClInclude Include="Traits\TypeOp.h" />
+    <ClInclude Include="Types\CompoundType.h" />
+    <ClInclude Include="Types\FundamentalType.h" />
+    <ClInclude Include="Types\IsClassType.h" />
+    <ClInclude Include="Types\IsEnumType.h" />
+    <ClInclude Include="Types\IsFunctionType.h" />
+    <ClInclude Include="Types\TypeT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Binder\BinderTest.cpp" />
+    <ClCompile Include="Chapter.22.cpp" />
+    <ClCompile Include="ComposeFunctor\Compose1.cpp" />
+    <ClCompile Include="ComposeFunctor\Compose2.cpp" />
+    <ClCompile Include="ComposeFunctor\Compose5.cpp" />
+    <ClCompile Include="ComposeFunctor\Compose6.cpp" />
+    <ClCompile Include="FunctionPtr\FunctorDemo.cpp" />
+    <ClCompile Include="Functors\FunctionPointerWrapperTest.cpp" />
+    <ClCompile Include="Functors\Functor1Test.cpp" />
+    <ClCompile Include="Functors\MemberFunctionCall.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Types\type1test.cpp" />
+    <ClCompile Include="Types\types.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Functors">
+      <UniqueIdentifier>{f9bdc7cf-883c-4526-869d-a2a8cad457b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{08a44509-0bee-4fa6-a780-b3a77c245b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Traits">
+      <UniqueIdentifier>{d3a8c60c-7989-4e84-bc33-6dbb3b51f053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FunctionPtr">
+      <UniqueIdentifier>{549d2420-28c9-4aff-8091-aac585b04d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComposeFunctor">
+      <UniqueIdentifier>{98202185-7ee0-4610-82b7-0f4414b28ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder">
+      <UniqueIdentifier>{d8e6688e-7787-4d6c-ac3a-46ae319ef8a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functors\MemberFunctionPointer.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Functors\FunctionPointer.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Functors\Functor1.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Functors\SortCriterion.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Functors\funcwrap.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Functors\FunctorParam1.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Functors\FunctorParam2.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\CompoundType.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\FundamentalType.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\IsClassType.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\IsEnumType.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\IsFunctionType.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\TypeT.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Traits\TypeOp.h">
+      <Filter>Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPtr\FunctionPtrType.h">
+      <Filter>FunctionPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPtr\FunctionPtr.h">
+      <Filter>FunctionPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPtr\ForwardParam.h">
+      <Filter>FunctionPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPtr\FuncPtr.h">
+      <Filter>FunctionPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPtr\IfThenElse.h">
+      <Filter>FunctionPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\Compose1.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\Math1.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\Compose4.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\Compose5.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\ForwardParam.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\Math2.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\Math3.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\Compose6.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\IfThenElse.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="ComposeFunctor\FunctorParam1.h">
+      <Filter>ComposeFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\Min.h">
+      <Filter>Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\Binder.h">
+      <Filter>Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\BoundVal.h">
+      <Filter>Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\BinderParams.h">
+      <Filter>Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="Traits\IfThenElse.h">
+      <Filter>Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\FunctorParam.h">
+      <Filter>Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="Traits\ForwardParam.h">
+      <Filter>Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\SignSelect.h">
+      <Filter>Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\BindConv.h">
+      <Filter>Binder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functors\MemberFunctionCall.cpp">
+      <Filter>Functors</Filter>
+    </ClCompile>
+    <ClCompile Include="Functors\Functor1Test.cpp">
+      <Filter>Functors</Filter>
+    </ClCompile>
+    <ClCompile Include="Functors\FunctionPointerWrapperTest.cpp">
+      <Filter>Functors</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\type1test.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Types\types.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionPtr\FunctorDemo.cpp">
+      <Filter>FunctionPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="ComposeFunctor\Compose1.cpp">
+      <Filter>ComposeFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="ComposeFunctor\Compose2.cpp">
+      <Filter>ComposeFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="ComposeFunctor\Compose5.cpp">
+      <Filter>ComposeFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="ComposeFunctor\Compose6.cpp">
+      <Filter>ComposeFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="Binder\BinderTest.cpp">
+      <Filter>Binder</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
